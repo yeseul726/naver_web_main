@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>naver_main</title>
+    <title>NAVER</title>
     <link rel="stylesheet" type="text/css" href="../css/naver_style.css">
 </head>
 <body>
@@ -45,6 +45,83 @@
         </tr>
     </table>
     <div style="background-color: #f2f4f7; height: 1500px; width: 1500px; position: absolute;"><!--width 다시 설정-->
+        <image src="../image/banner.jpg" class = "img"></image>
+        <fieldset style="width: 298px;
+           height: 84px;
+           padding: 16px;
+           border: 1px solid #e3e7ee;
+           background-color: white;">
+            <table cellpadding="0" style="width: 137px;
+               background-color: #f9fafc;
+               margin: -1px;
+               border-collapse: collapse;">
+                <tr>
+                    <td style="border: 1px solid #e3e7ee;">
+                        <input type="text" placeholder="아이디" class="login_box">
+                    </td>
+                    <td rowspan="2">
+                        <input type="submit" value="로그인" style="background-color: #1ec545;
+                        font-family: '돋움';
+                        width: 67px;
+                        height: 67px;
+                        border: 1px solid #1ec545;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 12px;
+                        cursor: pointer;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #e3e7ee;">
+                        <input type="password" placeholder="비밀번호" class="login_box">
+                    </td>
+                </tr>
+            </table>
+            <table style="float: right;
+               margin-top: -67px;
+               width: 78px;
+               height: 68px;
+               text-align: center;
+               border-collapse: collapse;">
+                <tr>
+                    <td style="border: 1px solid #f1f3f6">
+                        <a href="" style="letter-spacing: -1px;
+                        font-size: 9pt;
+                        font-family: '돋움'">IP보안</a>
+                        <image src="../image/off.png" style="width: 26px;" align="center"></image>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #f1f3f6">
+                        <a href="" style="letter-spacing: -2px;
+                        font-size: 9pt;
+                        font-family: '돋움'">일회용 로그인</a>
+                    </td>
+                </tr>
+            </table>
+            <div style="margin-top: 11px;
+                font-family: '돋움';
+                font-size: 9pt;
+                letter-spacing: -1px;
+                text-decoration: none;
+                color: #828282;">
+                <image src="../image/check_box.png" style="width: 15px;
+                                                           margin-top: -4px;
+                                                           margin-right: 1px;" align="center"></image><!--css 수정-->
+                <!--<input type="checkbox">-->로그인 상태 유지
+                &nbsp;&nbsp;
+                <a href="" style="font-size: 9pt;
+                font-family: '돋움'">회원가입</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" style="font-size: 9pt;
+                font-family: '돋움'
+                ">아이디/비밀번호 찾기</a>
+                <!--<font style="letter-spacing: -3px;">/</font>
+                <a href="" style="font-size: 9pt;
+                font-family: '돋움'">비밀번호 찾기</a>-->
+            </div>
+        </fieldset>
    </div>
 </body>
 </html>
+<!--OFF, 로그인 상태 유지 CheckBox 수정(일단 css랑 image태그로만 덕지덕지 붙여놓음)-->

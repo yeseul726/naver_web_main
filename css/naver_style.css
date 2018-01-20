@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 #main_logo{
     width: 200px;
     margin-left: 205px;
@@ -10,6 +12,7 @@
     margin-left: 15px;
     margin-top: 40px;
     padding-left: 10px;
+    outline: none;
 }
 #search_but{
     border: 2px solid #00c73c;
@@ -62,7 +65,30 @@ a :active :visited{
     width: 100%;
     height: 30px;
     margin-top: 35px;
+    padding-bottom: 4px;
 }
 #menu1 li, #menu2 li:hover{
     cursor: pointer;
 }
+.img{
+    margin: auto;
+    margin-top: 8px;
+}
+.login_box {
+    width: 135px;
+    height: 26px;
+    padding: 2px;
+    padding-left: 11px;
+    font-family: '돋움';
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+}
+/* Internet Explorer 10 이상에 적용 */
+input:-ms-input-placeholder { color: #666666; }
+/* Webkit, Blink, Edge에 적용 */
+input::-webkit-input-placeholder { color: #666666; }
+/* Mozilla Firefox 4부터 18에 적용 */
+input::-moz-placeholder { color: #666666; }
+/* Mozilla Firefox 19 이상에 적용 */
+input::-moz-placeholder { color: #666666; }
